@@ -1,0 +1,25 @@
+.signup {
+  background-color: #d4c0c9;
+  padding: 50px 100px;
+}
+
+.signup__form {
+  width: 500px;
+  margin: auto;
+}
+.signup__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.signup__button > button {
+  outline: none;
+  border: none;
+  color: white;
+  background: linear-gradient(#004771, #00487180);
+  padding: 10px 10px;
+  font-size: 18px;
+  width: max-content;
+  margin: auto;
+  cursor: pointer;
+}

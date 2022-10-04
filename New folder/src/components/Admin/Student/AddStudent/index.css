@@ -1,0 +1,119 @@
+.heading {
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.input {
+  display: flex;
+  flex-direction: row;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.input__value {
+  background-color: aliceblue;
+  margin-left: 100px;
+  margin-top: 50px;
+  height: 35px;
+  width: 250px;
+  border-radius: 5px;
+  padding: 10px;
+  outline: none;
+  border: 0;
+}
+
+::-webkit-input-holder {
+  text-align: center;
+  color: black;
+}
+
+:-moz-holder {
+  text-align: center;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  margin-left: 200px;
+  background-color: green;
+  color: #ffffff;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-width: 0px;
+  border-radius: 8px;
+}
+
+.btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.description {
+  height: 80px;
+  background-color: aliceblue;
+  margin-left: 200px;
+  margin-top: 50px;
+
+  width: 300px;
+  border-width: 0px;
+  align-items: center;
+  padding: 10px;
+}
+
+.container {
+  background-color: gray;
+  height: 100vh;
+  padding: 20px;
+}
+
+.Adress_container {
+  margin-left: 100px;
+  margin-top: 50px;
+  background-color: gainsboro;
+  color: #ffffff;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+.address__input {
+  background-color: white;
+  display: flex;
+  height: 25px;
+  width: 200px;
+  border-width: 0px;
+}
+
+.label {
+  display: flex;
+  padding-left: 10px;
+  margin-left: 30px;
+  margin-top: 20px;
+  color: black;
+  font-weight: 500;
+}
+
+.adress_heading {
+  font-size: 14px;
+  font-weight: 500;
+  color: black;
+  margin-left: 10px;
+}
+
+.label_container {
+  display: flex;
+}
+
+.address__inputs {
+  width: 150px;
+  height: 25px;
+  border-width: opx;
+}

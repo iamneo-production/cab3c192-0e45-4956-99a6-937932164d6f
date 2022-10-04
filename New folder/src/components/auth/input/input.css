@@ -1,0 +1,42 @@
+.auth__input {
+  margin-bottom: 20px;
+}
+.auth__input > input,
+.auth__dropdown {
+  background: linear-gradient(30deg, white 50%, #d4c0c9 50%);
+  padding: 10px 10px;
+  color: black;
+  border: 2px solid black;
+  outline: none;
+  font-weight: 700;
+  width: 500px;
+  position: relative;
+}
+.auth__dropdown {
+  display: flex;
+  justify-content: space-between;
+}
+.auth__dropdown > img {
+  width: 50px;
+  height: 50px;
+}
+.auth__dropdown > div {
+  position: absolute;
+  background-color: grey;
+  width: 101%;
+  bottom: -133%;
+  left: -0.5%;
+  border: 1px solid gray;
+  border-right: 4px solid gray;
+  z-index: 500;
+}
+.auth__dropdown > div > p {
+  padding: 3px 5px;
+}
+.auth__dropdown > div > p:first-child {
+  border-bottom: 1px solid black;
+}
+.error {
+  color: red;
+  font-size: 16px;
+}
